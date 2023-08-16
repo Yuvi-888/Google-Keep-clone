@@ -1,0 +1,116 @@
+*{
+  margin:0px
+}
+
+.header_container{
+  height: 60px;
+  display: flex;
+  align-items: center;
+  background-color: rgb(180 180 15);
+}
+
+.header{
+  background-image: url('https://cdn.iconscout.com/icon/free/png-256/free-google-keep-4762010-3955523.png?f=webp');
+  width: 50px;
+  height: 50px;
+  background-size: cover;
+margin: 4px 20px;
+}
+
+.app_heading{
+  position: absolute;
+  left: 5%;
+  top: 15px;
+  margin-left: 15px;
+  font-size: 25px;
+}
+
+.footer_container{
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  font-size: 14px;
+}
+
+.createnote_container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.add_btn{
+  width: 45px;
+  height: 45px;
+  position: absolute;
+  top: 214px;
+  border: none;
+  border-radius: 50%;
+  right: 357px;
+  cursor: pointer;
+  background-color: aquamarine;
+}
+
+.add_btn:hover{
+  background-color: rgb(33, 232, 166);
+}
+
+.title{
+  position: absolute;
+  top: 100px;
+  width: 454px;
+  border: none;
+  position: absolute;
+  top: 85px;
+  left: 390px;
+  padding: 5px 5px;
+  outline: none;
+  cursor: pointer;
+}
+
+.content{
+  resize: none;
+  border: none;
+  position: absolute;
+  top: 110px;
+  left: 390px;
+  padding: 5px 5px;
+  outline: none;
+  cursor: pointer;
+}
+
+.notes_container{
+  display: inline-block;
+}
+
+.notes{
+  padding: 5px 5px;
+  margin: 10px 10px;
+  cursor: pointer;
+  width: 190px;
+  height: 120px;
+  position: relative;
+  border: 2px solid;
+  border-radius: 10px;
+  left: 50px;
+  top: 225px;
+}
+
+.delete_btn{
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 4%;
+  right: 4%;
+  cursor: pointer;
+  background-color: red;
+  border: none;
+  border-radius: 4px;
+  padding: 3px 3px;
+}
+
